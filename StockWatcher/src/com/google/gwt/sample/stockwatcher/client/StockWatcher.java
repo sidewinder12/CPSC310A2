@@ -300,6 +300,7 @@ private void removeStock(final String symbol) {
         for (int i=0; i < 11; i++){
             newList.add(i);
         }
+        newLIst.add(50);
         return newLIst;
     }
     
