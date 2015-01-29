@@ -1,6 +1,11 @@
 package com.google.gwt.sample.stockwatcher.client;
 
-import java.io.Serializable;
+//import java.io.Serializable;
+class LoginFailed
+{ public void LoginFailed()
+	{}
+	}
+
 
 public class LoginInfo implements Serializable {
 
@@ -9,6 +14,11 @@ public class LoginInfo implements Serializable {
   private String logoutUrl;
   private String emailAddress;
   private String nickname;
+  
+  public LoginInfo(){
+	  //empty info
+	  nickname=nickname.toString();
+  }
 
   public boolean isLoggedIn() {
     return loggedIn;
