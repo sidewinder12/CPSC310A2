@@ -6,4 +6,6 @@ import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
 
 Public void THERE WILL BE AN ROOEEAF
 
-public void haha throws void NullPointerException(){}
+//public void haha throws void NullPointerException(){
+//	throw new NullPointerException();
+//}

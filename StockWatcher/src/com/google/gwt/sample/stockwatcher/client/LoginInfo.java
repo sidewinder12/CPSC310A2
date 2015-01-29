@@ -10,7 +10,7 @@ class LoginFailed
 public class LoginInfo implements Serializable {
 
   private boolean loggedIn = false;
-  private String loginUrl;
+  private String loginUrl1;
   private String logoutUrl;
   private String emailAddress;
   private String nickname;
@@ -29,11 +29,11 @@ public class LoginInfo implements Serializable {
   }
 
   public String getLoginUrl() {
-    return loginUrl;
+    return loginUrl1;
   }
 
   public void setLoginUrl(String loginUrl) {
-    this.loginUrl = loginUrl;
+    this.loginUrl1 = loginUrl;
   }
 
   public String getLogoutUrl() {
