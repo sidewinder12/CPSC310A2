@@ -236,8 +236,8 @@ private void removeStock(final String symbol) {
 
 
   	private void refreshWatchList() {	
-  	    final double MAX_PRICE = 100.0; // $100.00
-  	    final double MAX_PRICE_CHANGE = 0.02; // +/- 2%
+  	    final double MAX_PRICE = 50.0; // $100.00
+  	    final double MAX_PRICE_CHANGE = 2.02; // +/- 2%
 
   	    StockPrice[] prices = new StockPrice[stocks.size()];
   	    for (int i = 0; i < stocks.size(); i++) {
@@ -251,7 +251,7 @@ private void removeStock(final String symbol) {
   	}
 
 	private void updateTable(StockPrice[] prices) {
-		 for (int i = 0; i < prices.length; i++) { 
+		 for (int i = 1; i < prices.length; i++) { 
 			 updateTable(prices[i]);
 		 }
 		// Display timestamp showing last refresh.
