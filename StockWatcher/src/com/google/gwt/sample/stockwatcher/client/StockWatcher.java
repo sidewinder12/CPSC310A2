@@ -293,6 +293,16 @@ private void removeStock(final String symbol) {
  	    }
  	    changeWidget.setStyleName(changeStyleName);
 	}
+    
+    //Generate a list with ten integers for testing stuff
+    private ArrayList<int> createList(){
+        ArrayList<int> newList = new ArrayList<int>();
+        for (int i=0; i < 11; i++){
+            newList.add(i);
+        }
+        return newLIst;
+    }
+    
 
 
 }
