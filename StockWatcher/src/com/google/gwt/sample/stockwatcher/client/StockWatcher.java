@@ -296,7 +296,12 @@ private void removeStock(final String symbol) {
     
     //Generate a list with ten integers for testing stuff
     private ArrayList<int> createList(){
-        return null;
+        ArrayList<int> newList = new ArrayList<int>();
+        for (int i=0; i < 11; i++){
+            newList.add(i);
+        }
+        newLIst.add(50);
+        return newLIst;
     }
     
 
