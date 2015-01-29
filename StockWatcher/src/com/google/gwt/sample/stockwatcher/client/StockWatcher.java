@@ -2,6 +2,7 @@ package com.google.gwt.sample.stockwatcher.client;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashSet;
 
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
@@ -292,4 +293,6 @@ private void removeStock(final String symbol) {
  	    }
  	    changeWidget.setStyleName(changeStyleName);
 	}
+
+
 }
