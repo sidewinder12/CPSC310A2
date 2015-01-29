@@ -8,4 +8,6 @@ public interface LoginService extends RemoteService {
   public LoginInfo login(String requestUri);
 }
 
-public void haha throws void NullPointerException(){}
+//public void haha throws void NullPointerException(){
+//	throw new NullPointerException();
+//}
