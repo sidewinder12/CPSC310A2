@@ -5,13 +5,17 @@ import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
 
 
 @RemoteServiceRelativePath("login")
-HOLY SHIT
+
 public interface LoginService extends RemoteService {
-  private LoginInfo login(String requestUri);
+  LoginInfo login(String requestUri);
+  
 }
 
 
-Public void THERE WILL BE AN ROOEEAF
+Public void LoginServices(){
+
+	  System.out.println("Login Services");
+}
 
 
 //public void haha throws void NullPointerException(){
